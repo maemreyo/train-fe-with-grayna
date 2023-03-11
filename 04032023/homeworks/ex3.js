@@ -1,9 +1,9 @@
-const smile = ["Ha!"];
-function smileInt(i) {
+const smile = [];
+function smileInt(str,i=1) {
   for (let x = 0; x <i; x++) {
-     smile.push("Ha!");
+     smile.push(str);
   }
 }
-console.log(smileInt(3));
+console.log(smileInt("Ha",));
 console.log(smile.join(" "));
 
