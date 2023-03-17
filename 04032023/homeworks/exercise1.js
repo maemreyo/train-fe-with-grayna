@@ -82,6 +82,11 @@
 //     }
 // }
         
-// console.log(newStr);
-    
-
+// // console.log(newStr); 
+//   Ex11. Write a JavaScript program to find the sum of squares of a numeric vector  
+// const sumOfsquare=[1,5];
+// let result=0;
+// for(let i of sumOfsquare){
+//  result += Math.pow(i,2)
+// }
+// console.log(result);
